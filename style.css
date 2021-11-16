@@ -1,0 +1,95 @@
+/**Mobile device**/
+
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    position: relative;
+}
+
+ 
+    
+ h1{
+        text-align:center;
+    }
+
+.section {
+          border: 3px solid;
+          margin-right:10px;
+          margin-left:50pxpx;
+          margin-bottom:20px;
+          margin-top: 20px;
+}
+.title {
+        width: 120px;
+        text-align: center;
+        border-left: 3px solid;
+        border-bottom: 3px solid;
+        padding: 5px;
+        float: right;
+
+}
+.passage{
+            padding: 10px;
+            margin: 10px;
+}
+ #title1{
+     background-color: rgb(67, 67, 129);
+ }
+ #title2{
+     background-color: rgb(168, 159, 28);
+ }
+#title3{
+    background-color: rgb(192, 84, 48);
+}
+#section1 {
+    background-color: rgb(117, 158, 156)
+
+}
+#section2{
+    background-color: rgb(157, 199, 199);
+}
+#section3{
+    background-color: rgb(146, 219, 213);
+}
+/**medium devices**/
+@media(min-width: 768px) and (max-width: 991.999px){
+    h1{
+        text-align: center;
+    }
+.section{
+    margin:0px;
+    margin-bottom: 5%;
+    width:40%;
+    float: left;
+    left: 35px;
+}
+#section3{
+    clear: both;
+    width: 90%;
+}
+#section1{
+    margin-right: 10%;
+
+}
+
+}
+/***large devices***/
+@media(min-width: 992px){
+    .section{
+        margin: 0%;
+        margin-right:2%;
+        width: 30%;
+        float:left;
+    }
+#section1{
+    margin-left: 2%;
+}
+
+}
+
+
+
+
